@@ -6,14 +6,16 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta content="Adversarial Monte Carlo Denoising with Conditioned auxliary feature modulation" name="description"/>
 <title>Adversarial Monte Carlo Denoising with Conditioned auxliary feature modulation</title>
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet" type="text/css"/>
-<link href="utils/report.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" type="text/css"/>
+<!-- <link href="utils/report.css" rel="stylesheet"/> -->
+<link rel="stylesheet" href="utils/index.css">
 </head>
 <body>
 
 
 <div class="content" id="content">
-<h1 class="title">Adversarial Monte Carlo Denoising with Conditioned auxliary feature modulation</h1>
+<h1 class="title">Adversarial Monte Carlo Denoising with Conditioned auxliary feature modulation  - Test Suite Overview</h1>
+<hr>
 <!-- <p class="authors">S. Bako<sup>*</sup>, T. Vogels<sup>*</sup>, B. McWilliams, M. Meyer, J. Novák, A. Harvill, P. Sen, T. DeRose, and F. Rousselle, "Kernel-Predicting Convolutional Networks for Denoising Monte Carlo Renderings," <i>ACM Transactions on Graphics</i>, Vol. 36, No. 4, Article 97, July 2017, (Proceedings of ACM SIGGRAPH 2017).</p>
         <p>
             The focus of this paper is the application of deep-learning based denoising to production-quality Monte Carlo renderings.
@@ -80,7 +82,10 @@
         <p>We found that a learning rate of 10<sup>-4</sup> and a batch size of 100 patches worked well for this dataset. A larger batch size helps to deal with the amount of noise in these scenes, which is much larger than in our production frames. For the fine-tuning stage, we use a learning rate of 10<sup>-6</sup>.</p>
  -->
 
-
+ <div class="help">The following scenes were rendered with the Tungsten renderer and denoised using several different apporaches.
+         All techniques use auxiliary buffers specified by their papers and code. KPCN denotes  [Bako et al.2017]; RAE denotes [Chaitanya et al.2017]; NFOR denotes [Bitterli et al.2016].
+         The results include input rendered spanning 4, 16, 32, 64, 128 sample per pixel. Metrics include SSIM, PSNR, RMSE.
+ </div>
 <div class="report-preview"><a href="bathroom2/index.html"><img class="report-thumb" src="bathroom2/thumb.png"/></a><br/>bathroom2</div>
 
 <div class="report-preview"><a href="car/index.html"><img class="report-thumb" src="car/thumb.png"/></a><br/>car</div>
