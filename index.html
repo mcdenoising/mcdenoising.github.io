@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Adversarial Monte Carlo Denoising with Conditioned auxliary feature modulation - Test Suite" name="description"/>
+<meta content="Adversarial Monte Carlo Denoising with Conditioned auxliary feature modulation" name="description"/>
 <title>Adversarial Monte Carlo Denoising with Conditioned auxliary feature modulation</title>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" type="text/css"/>
 <!-- <link href="utils/report.css" rel="stylesheet"/> -->
@@ -14,14 +14,78 @@
 
 
 <div class="content" id="content">
-<h1 class="title">Adversarial Monte Carlo Denoising with Conditioned auxliary feature modulation  - Test Suite Overview</h1>
+<h1 class="title">Adversarial Monte Carlo Denoising with Conditioned Auxliary Feature Modulation  - Test Suite Overview</h1>
 <hr>
+<!-- <p class="authors">S. Bako<sup>*</sup>, T. Vogels<sup>*</sup>, B. McWilliams, M. Meyer, J. Novák, A. Harvill, P. Sen, T. DeRose, and F. Rousselle, "Kernel-Predicting Convolutional Networks for Denoising Monte Carlo Renderings," <i>ACM Transactions on Graphics</i>, Vol. 36, No. 4, Article 97, July 2017, (Proceedings of ACM SIGGRAPH 2017).</p>
+        <p>
+            The focus of this paper is the application of deep-learning based denoising to production-quality Monte Carlo renderings.
+            Most of the training and evaluation has therefore been done on proprietary data. In order to facilitate comparisons to
+            future methods, we also provide results for our models when trained and tested on a publicly available&nbsp;dataset.
+        </p> -->
+<!--         <h2>Training data</h2>
+        <p>
+            We trained our models on a training set consisting of perturbations of
+            scenes available on <a href="https://benedikt-bitterli.me/resources/">https://benedikt-bitterli.me/resources/</a>.
+            To assure the training data covers a sufficient range of lighting situations, color patterns, and geometry, we randomly perturbed the scenes
+            by varying camera parameters, materials, and lighting. In this way, we generated 1484 (noisy image, high quality image) pairs
+            from the following 8 base scenes. We extracted patches from those images at four different sample counts per pixel: 128&nbsp;spp, 256&nbsp;spp, 512&nbsp;spp and 1024&nbsp;spp.
+        </p>
+        <table width="600" class="training-data-table">
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="training_data/bathroom2.jpg"><br />
+                        Contemporary Bathroom<br>
+                        <span class="training-attribution">Mareck, Blendswap.com</span>
+                    </td>
+                    <td>
+                        <img src="training_data/car2.jpg"><br />
+                        Pontiac GTO 67<br>
+                        <span class="training-attribution">MrChimp2313, Blendswap.com</span>
+                    </td>
+                    <td>
+                        <img src="training_data/room2.jpg"><br />
+                        Bedroom<br>
+                        <span class="training-attribution">SlykDrako, Blendswap.com</span>
+                    </td>
+                    <td>
+                        <img src="training_data/spaceship.jpg"><br />
+                        4060.b Spaceship<br>
+                        <span class="training-attribution">thecali, Blendswap.com</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="training_data/house.jpg"><br />
+                        Victorian Style House<br>
+                        <span class="training-attribution">MrChimp2313, Blendswap.com</span>
+                    </td>
+                    <td>
+                        <img src="training_data/room3.jpg"><br />
+                        The Breakfast Room<br>
+                        <span class="training-attribution">Wig42, Blendswap.com</span>
+                    </td>
+                    <td>
+                        <img src="training_data/staircase.jpg"><br />
+                        The Wooden Staircase<br>
+                        <span class="training-attribution">Wig42, Blendswap.com</span>
+                    </td>
+                    <td>
+                        <img src="training_data/classroom.jpg"><br />
+                        Japanese Classroom<br>
+                        <span class="training-attribution">NovaZeeke, Blendswap.com</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+ --> <!-- <h2>Meta-parameters</h2>
+        <p>We found that a learning rate of 10<sup>-4</sup> and a batch size of 100 patches worked well for this dataset. A larger batch size helps to deal with the amount of noise in these scenes, which is much larger than in our production frames. For the fine-tuning stage, we use a learning rate of 10<sup>-6</sup>.</p>
+ -->
 
-<div class="help">The following scenes were rendered with the Tungsten renderer and denoised using several different apporaches.
+ <div class="help">The following scenes were rendered with the Tungsten renderer and denoised using several different apporaches.
          All techniques use auxiliary buffers specified by their papers and code. KPCN denotes  [Bako et al.2017]; RAE denotes [Chaitanya et al.2017]; NFOR denotes [Bitterli et al.2016].
          The results include input rendered spanning 4, 16, 32, 64, 128 sample per pixel. Metrics include SSIM, PSNR, RMSE.
-</div>
-
+ </div>
 <div class="report-preview"><a href="bathroom2/index.html"><img class="report-thumb" src="bathroom2/thumb.png"/></a><br/>bathroom2</div>
 
 <div class="report-preview"><a href="car/index.html"><img class="report-thumb" src="car/thumb.png"/></a><br/>car</div>
@@ -63,5 +127,6 @@
 <div class="report-preview"><a href="veach-mis/index.html"><img class="report-thumb" src="veach-mis/thumb.png"/></a><br/>veach-mis</div>
 
 <h2>Acknowledgements</h2>
-<p>We would like to thank <a href="https://benedikt-bitterli.me/nfor/">NFOR</a> for their dataset and interactive viewer.
+<p>We would like to thank <a href="https://benedikt-bitterli.me/nfor/">NFOR for their dataset and interactive viewer.
+
 </p></div></body></html>
