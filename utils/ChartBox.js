@@ -64,7 +64,7 @@ var ChartBox = function(parent, stats) {
     h1.appendChild(document.createTextNode("Charts"));
 
     var help = document.createElement('div');
-    help.appendChild(document.createTextNode("Relative performance, obtained by dividing the reconstruction error by the default path traced rendering error. For each method, we show, from left to right, the improvement at 4, 16, 32, 64 and 128 samples per pixel. For RMSE and SSIM (we plot 1-SSIM), lower values are better. For PSNR, higher values are better."));
+    help.appendChild(document.createTextNode("Relative performance, obtained by dividing the reconstruction error by the default path traced rendering error. For each method, we show, from left to right, the improvement at 4, 16, 32, 64 and 128 samples per pixel. For RMSE and 1-SSIM, lower values are better. For PSNR, higher values are better."));
     help.className = "help";
 
     var box = document.createElement("div");

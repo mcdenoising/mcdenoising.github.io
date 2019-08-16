@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Adversarial Monte Carlo Denoising with Conditioned auxliary feature modulation">
+    <title>Report for frame "living-room-3_a"</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../utils/report.css">
+    <script src="./data.js"></script>
+    <script src="../utils/ImageBox.js"></script>
+    <script src="../utils/Chart.js"></script>
+    <script src="../utils/ChartBox.js"></script>
+    <script src="../utils/TableBox.js"></script>
+</head>
+
+<script type="text/javascript">
+
+    function setup() {
+        content = document.getElementById("content");
+
+        if (data['imageBoxes'])
+            new ImageBox(content, data['imageBoxes'] );
+
+        if (data['stats'])
+            new ChartBox(content, data['stats']);
+            new TableBox(content, data['stats']);
+    }
+</script>
+
+<body onload="setup();">
+    <div class="content scene-content" id="content"/>
+</body>
+</html>
