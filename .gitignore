@@ -1,0 +1,12 @@
+# data
+data
+
+# Pycharm
+.idea/
+
+# html
+_site/
+
+tmp/
+
+*.zip

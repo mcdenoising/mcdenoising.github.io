@@ -1,1 +1,12 @@
-theme: jekyll-theme-cayman
+title: Adversarial Monte Carlo Denoising with Conditioned Auxiliary Feature Modulation
+# email: structured3d@googlegroup.com
+description: Adversarial Monte Carlo Denoising with Conditioned Auxiliary Feature Modulation
+  ---
+baseurl: "" # the subpath of your site, e.g. /blog
+
+# Build settings
+markdown: kramdown
+include: ['_pages']
+
+# Google Analytics
+google_analytics: UA-145745038-1
