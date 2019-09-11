@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+# Adversarial Monte Carlo Denoising with Conditioned Auxiliary Feature Modulation
 
-You can use the [editor on GitHub](https://github.com/mcdenoising/mcdenoising.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+![Adversarial Monte Carlo Denoising with Conditioned Auxiliary Feature Modulation](http://adversarial.mcdenoising.org/static/img/teaser.jpg)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Denoising Monte Carlo rendering with a very low sample rate remains a major challenge in the photo-realistic rendering research. Many previous works, including regression-based and learning-based methods, have been explored to achieve better rendering quality with less computational cost. However, most of these methods rely on handcrafted optimization objectives, which lead to artifacts such as blurs and unfaithful details. In this paper, we present an adversarial approach for denoising Monte Carlo rendering. Our key insight is that generative adversarial networks can help denoiser networks to produce more realistic high-frequency details and global illumination by learning the distribution from a set of high-quality Monte Carlo path tracing images.We also adapt a novel feature modulation method to utilize auxiliary features better, including normal, albedo and depth. Compared to previous state-of-the-art methods, our approach produces a better reconstruction of the Monte Carlo integral from a few samples, performs more robustly at different sample rates, and takes only a second for megapixel images.
 
-### Markdown
+## Paper
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Coming soon.
 
-```markdown
-Syntax highlighted code block
+## Code and Data
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mcdenoising/mcdenoising.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Coming soon.

@@ -94,7 +94,7 @@ permalink: /
 <div class="row">
   <div class="col-xs-12">
     <p>
-      Use the <a href="interactive_viewer/viewer.html">interactive viewer</a> to view the image details of our methods.
+      Use the <a href="interactive_viewer/viewer.html">interactive viewer</a> to inspect the image details of our methods.
     </p>
   </div>
 </div><br>
