@@ -71,7 +71,7 @@ permalink: /
       <br>
       @article {xuMCGANsa2019,
       <br>
-      author = {BING XU and JUNFEI ZHANG and RUI WANG and KUN XU and YONG-LIANG YANG and CHUAN LI and RUI TANG},
+      author = {Bing Xu and Junfei Zhang and Rui Wang and Kun Xu and Yong-Liang Yang and Chuan Li and Rui Tang},
       <br>
       title = {Adversarial Monte Carlo Denoising with Conditioned Auxiliary Feature},
       <br>
@@ -79,11 +79,13 @@ permalink: /
       <br>
       year = {2019},
       <br>
-      volume = 38,
+      volume = {38},
       <br>
       pages = {224:1--224:12},
       <br>
-      number = 6 
+      number = {6},
+      <br>
+      }
     </p>
   </div>
 </div><br>
