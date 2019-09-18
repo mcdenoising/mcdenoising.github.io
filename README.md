@@ -7,7 +7,9 @@ Denoising Monte Carlo rendering with a very low sample rate remains a major chal
 ## Paper
 
 [Paper](./static/paper/xuMCGANsa2019.pdf)
+
 [Paper low res](./static/paper/xuMCGANsa2019_lowres.pdf)
+
 [Supplemental Material](./static/paper/xuMCGANsa2019_supplemental.pdf)
 
 ## Code and Data
