@@ -13,9 +13,9 @@ permalink: /
     <center><p>
       BING XU<sup>1</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       JUNFEI ZHANG<sup>1</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      RUI WANG<sup>2</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      KUN XU<sup>3</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      YONG-LIANG YANG<sup>4</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://www.cad.zju.edu.cn/home/rwang/">RUI WANG</a><sup>2</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://cg.cs.tsinghua.edu.cn/people/~kun/">KUN XU</a><sup>3</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://www.yongliangyang.net/">YONG-LIANG YANG</a><sup>4</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       CHUAN LI<sup>5</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       RUI TANG<sup>1</sup>
     </p></center>
@@ -66,7 +66,24 @@ permalink: /
 <div class="row">
   <div class="col-xs-12" style="margin-top: 3px; color: #666;">
     <p>
-      Coming soon.
+      <a href="./static/paper/xuMCGANsa2019.pdf"> Paper </a> | <a href="./static/paper/xuMCGANsa2019_lowres.pdf"> Paper (low res) </a> | <a href="./static/paper/xuMCGANsa2019_supplemental">Supplemental Material </a>
+      <br>
+      <br>
+      @article {xuMCGANsa2019,
+      <br>
+      author = {BING XU and JUNFEI ZHANG and RUI WANG and KUN XU and YONG-LIANG YANG and CHUAN LI and RUI TANG},
+      <br>
+      title = {Adversarial Monte Carlo Denoising with Conditioned Auxiliary Feature},
+      <br>
+      journal = {ACM Transactions on Graphics (Proceedings of ACM SIGGRAPH Asia 2019)},
+      <br>
+      year = {2019},
+      <br>
+      volume = 38,
+      <br>
+      pages = {224:1--224:12},
+      <br>
+      number = 6 
     </p>
   </div>
 </div><br>
@@ -98,7 +115,6 @@ permalink: /
     </p>
   </div>
 </div><br>
-
 
 
 <!-- <div class="row" id="license">
