@@ -99,7 +99,7 @@ permalink: /
 <div class="row">
   <div class="col-xs-12">
     <p>
-      Coming soon.
+      Our code and model weights are released <a href="https://github.com/mcdenoising/AdvMCDenoise">here</a>. The large scale indoor dataset from Kujiale.com will be published soon.
     </p>
   </div>
 </div><br>
