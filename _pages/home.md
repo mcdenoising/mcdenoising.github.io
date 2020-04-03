@@ -66,7 +66,7 @@ permalink: /
 <div class="row">
   <div class="col-xs-12" style="margin-top: 3px; color: #666;">
     <p>
-      <a href="./static/paper/xuMCGANsa2019.pdf"> Paper </a> | <a href="./static/paper/xuMCGANsa2019_lowres.pdf"> Paper (low res) </a> | <a href="./static/paper/xuMCGANsa2019_supplemental.pdf">Supplemental Material </a>
+      <a href="./static/paper/xuMCGANsa2019.pdf"> Paper </a> | <a href="./static/paper/xuMCGANsa2019_lowres.pdf"> Paper (low res) </a> | <a href="https://drive.google.com/open?id=11wFRRjRTwpPKMKwt8C1VfuNJAaFeKZzO">Supplemental Material </a>
       <br>
       <br>
       @article {xuMCGANsa2019,
