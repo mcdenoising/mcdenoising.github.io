@@ -14,4 +14,4 @@ Denoising Monte Carlo rendering with a very low sample rate remains a major chal
 
 ## Code and Data
 
-Our code and model weights are released <a href="https://github.com/mcdenoising/AdvMCDenoise">here</a>. The large scale indoor dataset from Kujiale.com is published on both <a href="https://drive.google.com/drive/folders/1KIqIyHKIvIAqPsVARJLrWcvaGzogvObq?usp=sharing">Google cloud drive</a> and <a href="https://pan.baidu.com/s/1p50e0QfKqdnNP3HMv9rvKg">Badiu cloud drive with code wahy</a>. Please choose cloud drive whichever is more convenient in your location.
+Our code and model weights are released <a href="https://github.com/mcdenoising/AdvMCDenoise">here</a>. The large scale indoor dataset from Kujiale.com is published on both <a href="https://drive.google.com/drive/folders/1KIqIyHKIvIAqPsVARJLrWcvaGzogvObq?usp=sharing">Google cloud drive</a> and <a href="https://pan.baidu.com/s/1p50e0QfKqdnNP3HMv9rvKg">Badiu cloud drive with code "wahy"</a>. Please choose cloud drive whichever is more convenient in your location.
