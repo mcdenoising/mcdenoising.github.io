@@ -99,7 +99,7 @@ permalink: /
 <div class="row">
   <div class="col-xs-12">
     <p>
-      Our code and model weights are released <a href="https://github.com/mcdenoising/AdvMCDenoise">here</a>. The large scale indoor dataset from Kujiale.com is published on both <a href="https://drive.google.com/drive/folders/1KIqIyHKIvIAqPsVARJLrWcvaGzogvObq?usp=sharing">Google cloud drive</a> and <a href= https://pan.baidu.com/s/1p50e0QfKqdnNP3HMv9rvKg/>Badiu cloud drive with code wahy<a>. Please choose cloud drive whichever is more convenient.
+      Our code and model weights are released <a href="https://github.com/mcdenoising/AdvMCDenoise">here</a>. The large scale indoor dataset from Kujiale.com is published on both <a href="https://drive.google.com/drive/folders/1KIqIyHKIvIAqPsVARJLrWcvaGzogvObq?usp=sharing">Google cloud drive</a> and <a href=" https://pan.baidu.com/s/1p50e0QfKqdnNP3HMv9rvKg">Badiu cloud drive with code wahy</a>. Please choose cloud drive whichever is more convenient.
     </p>
   </div>
 </div><br>
